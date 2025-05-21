@@ -41,7 +41,9 @@ export default function Home() {
           Track your job applications, build your resume, and map your progress toward your next IT role—all in one place.
         </p>
         <motion.a
-          href="#features"
+          href="https://calendly.com/onepercentuniversity/aws-cloud-engineer-program-mt?preview_source=et_card&month=2025-05"
+          target="_blank"
+          rel="noopener noreferrer"
           whileHover={{ scale: 1.07 }}
           whileTap={{ scale: 0.97 }}
           className="inline-block bg-blue-700 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:bg-blue-800 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2"
