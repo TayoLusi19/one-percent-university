@@ -65,19 +65,19 @@ export default function Home() {
           {[
             {
               title: 'Job Application Tracker',
-              desc: 'Easily organize and monitor your job applications and follow-ups.',
+              desc: 'Easily organize and monitor your job applications and follow-ups. Add notes, set reminders, and track your application status in one place.'
             },
             {
               title: 'Resume Builder',
-              desc: 'Create and update your professional resume with our intuitive builder.',
+              desc: 'Create, edit, and export professional resumes with our intuitive builder. Use templates and get suggestions to improve your resume.'
             },
             {
               title: 'Progress Roadmap',
-              desc: 'Visualize your learning and job search journey with clear milestones.',
+              desc: 'Visualize your learning and job search journey with clear milestones, progress bars, and actionable steps to keep you on track.'
             },
             {
               title: 'Self-paced IT Skill Modules',
-              desc: 'Access curated resources to build in-demand IT skills at your own pace.',
+              desc: 'Access curated resources and interactive modules to build in-demand IT skills at your own pace. Track your learning progress and achievements.'
             },
           ].map((feature, i) => (
             <motion.div
@@ -107,7 +107,7 @@ export default function Home() {
         className="w-full max-w-2xl py-12 px-4 text-center"
       >
         <h2 className="text-2xl font-bold mb-4 text-gray-900">Contact</h2>
-        <p className="text-gray-600">For questions or support, email us at <a href="mailto:info@onepercentuniversity.com" className="text-blue-700 underline">info@onepercentuniversity.com</a></p>
+        <p className="text-gray-600">For questions or support, email us at <a href="mailto:tayolusi@onepercentuniversity.io" className="text-blue-700 underline">tayolusi@onepercentuniversity.io</a></p>
       </motion.section>
 
       {/* Footer */}
